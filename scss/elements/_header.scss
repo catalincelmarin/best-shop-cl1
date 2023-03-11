@@ -1,0 +1,67 @@
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+  .logo  {
+    font-size: 2rem;
+    text-decoration: none;
+    color: $color-primary;
+    font-family: $font-raleway;
+    
+  }
+  nav{
+    display: none;
+  }
+
+  .burger-menu{
+    color: $color-primary;
+    width: 1.2rem;
+    font-size: 1.5rem;
+   
+  }
+
+}
+
+.hero{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: calc(100vh - 58px);
+        flex-wrap: wrap;
+        justify-content: center;
+        >*{
+            width: 100%;
+        }
+        img{
+            width: 220%;
+            transform: translate(-27%);
+        }
+    button{
+        background-color: $color-primary;
+        color: $color-white;
+        border-radius: 30px;
+        font-size: 1rem;
+        font-family: $font-open-sans;
+        font-weight: bold;
+        text-align: center;
+        width: 19rem;
+        padding: 1.3rem;
+        margin-left: 3rem;
+        border: none;
+    }
+    h1{
+        font-size: 2rem;
+        text-align: center;
+        font-family: $font-raleway;
+
+    }
+    p{
+    margin: 2rem;
+    padding: 0 2rem;
+    line-height: 1.25em;
+    }
+}
